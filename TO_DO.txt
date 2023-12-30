@@ -1,0 +1,12 @@
+For task 1:
+The sim we are using is called the SITL simulator which basically means any simulator with a pixhawk usage. ( the first command you give to launch the sim according to the doc we gave previously)
+Now we gotta change the SITL mode and make it receive the mavros msgs and therefore move the bluerov 
+Checkout the bluerov_ros_playground pkg 
+Inside that package there are scripts and launch files that’ll help 
+And before that, check out the SITL ROS official documentation which is on the Internet
+These are some things that I did. If you guys can figure out a way then awesome. Keep the stuff updated here.
+
+For task 2:
+There are gazebo world files in the bluerov_ros_playground package which contains the seabed. Now we have to edit this seabed part and add some aruco markers - add 1 aruco marker to start. 
+Now how to add aruco markers is something you gotta figure out. Editing world files is fun and overwhelming at the same time - my personal opinion.
+
