@@ -1,7 +1,3 @@
-// Vehicle dynamics need to be put into code
-// Need to check what happens if the bot doesn't reach the desired pose
-// Check why the bot refuses to go to 5 direction
-
 #include <ros/ros.h>
 #include <bluerov_control/bluerov_subs.hpp>
 #include <geometry_msgs/TwistStamped.h>
