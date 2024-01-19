@@ -164,3 +164,4 @@ If you wish to run it using pose commands, use this -
 ```
 roslaunch bluerov_control main
 ```
+Also, the LQR code is still in progress and we are debugging it. As such, it won't do the job that it exactly needs to do. Though it does put the LQR Controller theory properly into practice. I shall perfect the code in the coming months
