@@ -3,11 +3,11 @@ Only of ROS Noetic, Ubuntu 20.04, gazebo-11 configuration
 # The repository contains code to make ArduSub move using LQR controller
 
 This code is complied with the help of these git repositories -
-a. https://github.com/bluerobotics/freebuoyancy_gazebo.git
-b. https://github.com/freefloating-gazebo/freefloating_gazebo.git
-c. https://github.com/freefloating-gazebo/freefloating_gazebo_demo.git
-d. https://github.com/kdkalvik/bluerov-ros-pkg.git
-e. https://github.com/ArduPilot/ardupilot.git
+1. https://github.com/bluerobotics/freebuoyancy_gazebo.git
+2. https://github.com/freefloating-gazebo/freefloating_gazebo.git
+3. https://github.com/freefloating-gazebo/freefloating_gazebo_demo.git
+4. https://github.com/kdkalvik/bluerov-ros-pkg.git
+5. https://github.com/ArduPilot/ardupilot.git
 
 In order to compile this code, there are a few steps. I am assuming at this point that you have your pc on dual boot and have ROS Noetic along with Gazebo set up on it. (If not, please complete that first)
 
