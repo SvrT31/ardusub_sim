@@ -135,16 +135,17 @@ Now, In order to run the file, follow these steps:
 cd ~/ardusub/ardupilot/ArduSub
 source ~/.bashrc
 sim_vehicle.py -f gazebo-bluerov2 -I 0 -j4 -D -L RATBeach --console
-#(SITL is now running)
 ```
+SITL is now running
 
 2) view the world in Gazebo
 ```
 cd ~/ardusub/blue_ws/src/bluerov_ros_playground
 source gazebo.sh
 gazebo --verbose worlds/underwater.world -u
-#CLICK ON PLAY at the bottom left of the Gazebo GUI
 ```
+CLICK ON PLAY at the bottom left of the Gazebo GUI
+
 3) use the Mavros package 
 ```
 source ~/ardusub/blue_ws/devel/setup.bash
@@ -155,4 +156,11 @@ roslaunch bluerov_ros_playground apm.launch fcu_url:=udp://127.0.0.1:14550@
 roslaunch bluerov_control lqrcpp
 ```
 
-Also, I am assuming you have 
+Done!
+The AUV must be moving to a certian target. 
+
+The goal of this project was to move the AUV using only and only velocity command, which is being accomplished using an LQR Controller. 
+If you wish to run it using pose commands, use this -
+```
+roslaunch bluerov_control main
+```
