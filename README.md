@@ -11,7 +11,7 @@ This code is complied with the help of these git repositories -
 
 ## To compile this code:
 
-Once that is done, paste this code on terminal -
+Before starting, put this on a terminal -
 ```
 mkdir ardusub
 cd ardusub
