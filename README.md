@@ -9,7 +9,7 @@ This code is complied with the help of these git repositories -
 4. https://github.com/kdkalvik/bluerov-ros-pkg.git
 5. https://github.com/ArduPilot/ardupilot.git
 
-### In order to compile this code, there are a few steps. I am assuming at this point that you have your pc on dual boot and have ROS Noetic along with Gazebo set up on it. (If not, please complete that first)
+## To compile this code:
 
 Once that is done, paste this code on terminal -
 ```
@@ -136,7 +136,7 @@ Select the Q icon on top left
 7)  Select ok
 8)  Close QGroundControl
 
-## Now, In order to run the file, follow these steps:
+## To run:
 1) Open a new terminal
 ```
 cd ~/ardusub/ardupilot/ArduSub
