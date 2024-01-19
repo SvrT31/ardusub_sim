@@ -127,14 +127,14 @@ chmod +x ./QGroundControl.AppImage
  ```
 
 Select the Q icon on top left
-i. Select Application settings
-ii. Select Comm Links
-iii. Select Add
-iv. Enter a name
-v. Type -> UDP
-vi. Port -> 14555
-vii. Select ok
-viii. Close QGroundControl
+1) Select Application settings
+2)  Select Comm Links
+3)  Select Add
+4)  Enter a name
+5)  Type -> UDP
+6)  Port -> 14555
+7)  Select ok
+8)  Close QGroundControl
 
 Now, In order to run the file, follow these steps:
 1) Open a new terminal
